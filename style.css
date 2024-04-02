@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff;
+}
+
+.bandera {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangulo {
+  flex-grow: 1;
+}
+
+.rojo {
+  background-color: #FF0000; /* Rojo */
+}
+
+.blanco {
+  background-color: #FFFFFF; /* Blanco */
+}
+
+.azul {
+  background-color: #0052A5; /* Azul */
+}
